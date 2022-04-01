@@ -1,6 +1,6 @@
 // Importando Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3, faSass, faJs, faGulp, faGit, faGithubAlt, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faSass, faJs, faGulp, faGit, faGithubAlt, faReact, faNode } from "@fortawesome/free-brands-svg-icons";
 
 const skillDb = [
     {
@@ -34,6 +34,10 @@ const skillDb = [
     {
         icon: faReact,
         skillName: 'React',
+    },
+    {
+        icon: faNode,
+        skillName: 'Node JS',
     }
 ]
 

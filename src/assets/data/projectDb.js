@@ -1,3 +1,6 @@
+import hunddleLanding from "./../image/projects/web/hunddleLanding.png";
+import testimonialsGrid from "./../image/projects/web/testimonialsGrid.png";
+import sunnysideAgency from "./../image/projects/web/sunnysideAgency.png";
 import githubFinder from "./../image/projects/web/githubFinder.png";
 import staticJobListings from "./../image/projects/web/staticJobListings.png";
 import RickAndMortyAPI from "./../image/projects/web/RickAndMortyAPI.png";
@@ -6,6 +9,33 @@ import starwarsAPI from "./../image/projects/web/starwarsAPI.png";
 
 const projectDb = {
   web: [
+    {
+        website: "https://sk1-huddle-landing-page.netlify.app/",
+        image: hunddleLanding,
+        title: 'Huddle landing page with curved sections',
+        year: 2022,
+        tools: ["HTML", "SASS", "GULP"],
+        github: 'https://github.com/sskaren1/huddle-landing-page-with-curved-sections',
+        description: "This project is Frontend-Mentor challenge, it was made using HTML and CSS.",
+    },
+    {
+        website: "https://sskaren1.github.io/Testimonials-grid-section/",
+        image: testimonialsGrid,
+        title: 'Testimonials grid section',
+        year: 2022,
+        tools: ["HTML", "SASS", "GULP"],
+        github: 'https://github.com/sskaren1/Testimonials-grid-section',
+        description: "This project is Frontend-Mentor challenge, it was made using HTML, CSS and GULP.",
+    },
+    {
+        website: "https://sskaren1.github.io/Sunnyside-agency-landing-page/",
+        image: sunnysideAgency,
+        title: 'Sunnyside agency landing page',
+        year: 2022,
+        tools: ["HTML", "SASS", "GULP"],
+        github: 'https://github.com/sskaren1/Sunnyside-agency-landing-page',
+        description: "This project is Frontend-Mentor challenge, it was made using HTML, CSS and GULP.",
+    },
     {
         website: "https://sskaren1.github.io/GitHub_finder/",
         image: githubFinder,
