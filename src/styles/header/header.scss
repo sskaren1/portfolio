@@ -3,7 +3,7 @@
 @import '../base/mixins.scss';
 
 .header{
-    background: $gradient-1;
+    background: $gradient-1-h;
     height: auto;
     overflow: hidden;
     
@@ -24,10 +24,10 @@
     @include tablet {
         background: linear-gradient(
             to left,
-            $gradient-1 0%,
-            $gradient-2 30%,
-            $gradient-3 60%,
-            $gradient-4 100%
+            $gradient-1-h 0%,
+            $gradient-2-h 30%,
+            $gradient-3-h 60%,
+            $gradient-4-h 100%
         );
     }
 }

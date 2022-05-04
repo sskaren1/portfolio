@@ -20,7 +20,7 @@
   display: block;
   top: 6rem;
   left: 0;
-  background-color: rgba($color: $gradient-1, $alpha: 1);
+  background-color: rgba($color: $gradient-1-h, $alpha: 1);
   width: 100%;
   padding: $padding-elemt 0;
 
@@ -41,6 +41,7 @@
     text-align: center;
     margin-bottom: calc($margin_elemt/2);
     a{
+
       transition-property: color;
       transition-duration: .5s;
       &:hover {

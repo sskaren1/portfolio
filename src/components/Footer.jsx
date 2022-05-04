@@ -1,27 +1,42 @@
+// Importing Font Awesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+// Importing styles
+import "./../styles/layouts/footer.scss";
 
 const Footer = () => {
   return (
-    <div>
-      <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__site">
-                <p>Lima,Perú</p>
-            </div>
-            <div class="follow follow--footer">
-                <a href="https://github.com/sskaren1" class="follow__icon" title="Developer's Github" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/karen-obispo-campos" class="follow__icon" title="Developer's LinkedIn" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div> 
-            <div class="footer__copyright">
-                <p>Copyright &copy; 2022 All Rights Reserved - Designed by Karen Obispo </p>
-            </div>
+    <footer className="footer">
+      <div className="footer__container">
+        <div className="footer__site">
+          <p className="text-white">Lima, Perú</p>
         </div>
-      </footer>
-    </div>
-  )
-}
+        <div className="follow">
+          <a
+            href="https://github.com/sskaren1"
+            className="follow__icon"
+            title="Developer's Github"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/karen-obispo-campos"
+            className="follow__icon"
+            title="Developer's LinkedIn"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </div>
+        <div className="footer__copyright">
+          <p className="text-white">
+            Copyright &copy; 2022 All Rights Reserved - Designed by Karen Obispo
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

@@ -23,12 +23,13 @@
 .skill__icons {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: $skill-bg;
   border: none;
   border-radius: 1.5rem;
   width: 10rem;
+  height: 15.5rem;
   margin: 0 $margin_elemt calc($margin_elemt*2);
   padding: $padding_elemt;
 
@@ -39,7 +40,9 @@
   &:hover {
     background-color: $skill-hover;
   }
-
+  img{
+    height: 8rem;
+  }
   svg {
     font-size: 4rem;
     color: $neutral-2;

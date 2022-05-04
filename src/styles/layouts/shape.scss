@@ -1,28 +1,28 @@
-@import '../base/colours.scss';
-@import '../base/mixins.scss';
+@import "../base/colours.scss";
+@import "../base/mixins.scss";
 
 .custom-shape-divider {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  margin: -5rem 0 5rem;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  @include telefono {
+    margin: -6rem 0 5rem;
+  }
+  @include tablet {
+    margin: -10rem 0 5rem;
+  }
+  svg {
+    display: block;
+    width: calc(106% + 1.3px);
+    height: 80px;
     @include tablet {
-      bottom: -5px;
+      width: calc(100% + 1.3px);
+      height: 100px;
     }
-    svg {
-      position: relative;
-      display: block;
-      width: calc(106% + 1.3px);
-      height: 60px;
-      @include tablet {
-        width: calc(100% + 1.3px);
-        height: 120px;
-      }
-    }
-    .shape-fill {
-      fill: $neutral-2;
-    }
+  }
+  .shape-fill {
+    fill: $neutral-2;
+  }
 }

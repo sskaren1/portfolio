@@ -2,48 +2,38 @@
 @import '../base/colours.scss';
 @import '../base/mixins.scss';
 
+.cards--web{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 5rem;
+}
+
 // Web Projects
 .card--web{
   max-width: 35rem;
-  width: 70%;
-  margin: 0 auto $margin_elemt;
+  padding: 2rem 0;
   background-image: linear-gradient(
     to top,
     $gradient-2 0%,
     $gradient-3 35%,
-    $neutral-2 60%,
-    $neutral-2 100%
+    $gradient-4 60%,
+    $gradient-5 100%
   );
-
-  @include tablet {
-    width: 70rem;
-    max-width: 80rem;
-    padding: $padding_elemt 0;
-    background-image: linear-gradient(
-      to left,
-      $gradient-1 0%,
-      $gradient-3 50%,
-      $neutral-2 70%,
-      $neutral-2 100%
-    );
-  }
 
   .card__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    @include tablet {
-      grid-row: unset;
-      @include grid-columns(2, $gap-2);
-    }
   }
 }
 
 .card__img {
   width: auto;
-  height: auto;
   img {
+    max-height: 20rem;
     border-radius: 1rem;
     vertical-align: middle;
   }
@@ -57,6 +47,7 @@
 
   .card__title {
     h3 {
+      color: $color-2;
       margin-bottom: $margin_elemt;
       &:hover {
         color: $link-hover;
@@ -65,13 +56,13 @@
   }
 
   .card__span {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-bottom: $margin_elemt;
-    @include tablet {
-      text-align: left;
-      display: flex;
-      align-items: center;
-    }
+    text-align: center;
+
 
     .card__year {
       background-color: $btn-blue;

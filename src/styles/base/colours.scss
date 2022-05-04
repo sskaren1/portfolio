@@ -16,10 +16,14 @@ $neutral-2: rgba(255 , 255, 255, 1);
 $neutral-3: rgba(128, 128, 128, 1);
 
 //* Gradient
-$gradient-1: $color-6;
-$gradient-2: rgba(44, 111, 154,0.8);
-$gradient-3: rgba(44, 111, 154,0.6);
-$gradient-4: rgba(44, 111, 154,0.3);
+$gradient-1-h: $color-6;
+$gradient-2-h: rgba(44, 111, 154, 0.8);
+$gradient-3-h: rgba(44, 111, 154, 0.6);
+$gradient-4-h: rgba(44, 111, 154, 0.4);
+$gradient-2: rgba(7, 36, 56,0.8);
+$gradient-3: rgba(7, 36, 56,0.6);
+$gradient-4: rgba(7, 36, 56,0.3);
+$gradient-5: rgba(7, 36, 56,0.05);
 
 //* Text
 $main-title: $color-3;

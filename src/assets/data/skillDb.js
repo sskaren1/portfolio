@@ -1,6 +1,7 @@
 // Importando Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3, faSass, faJs, faGulp, faGit, faGithubAlt, faReact, faNode } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faSass, faBootstrap, faJs, faGulp, faGit, faGithubAlt, faReact, faNode, faPython } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 const skillDb = [
     {
@@ -14,6 +15,10 @@ const skillDb = [
     {
         icon: faSass,
         skillName: 'SASS',
+    },
+    {
+        icon: faBootstrap,
+        skillName: 'Bootstrap',
     },
     {
         icon: faJs,
@@ -35,10 +40,18 @@ const skillDb = [
         icon: faReact,
         skillName: 'React',
     },
-    {
-        icon: faNode,
-        skillName: 'Node JS',
-    }
+    // {
+    //     icon: faNode,
+    //     skillName: 'Node JS',
+    // },
+    // {
+    //     icon: faPython,
+    //     skillName: 'Python',
+    // },
+    // {
+    //     icon: faDatabase,
+    //     skillName: 'MYSQL',
+    // },
 ]
 
 

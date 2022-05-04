@@ -37,7 +37,7 @@ const projectWeb = (props) => {
                       <span className="card__year">{project.year}</span>
                       {project.tools.map((tool, index) => (
                         <span className="card__tools" key={index}>
-                          {tool}&nbsp;
+                          {tool}&nbsp;&nbsp;
                         </span>
                       ))}
                     </div>

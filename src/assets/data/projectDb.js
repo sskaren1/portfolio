@@ -1,58 +1,19 @@
-import hunddleLanding from "./../image/projects/web/hunddleLanding.png";
-import testimonialsGrid from "./../image/projects/web/testimonialsGrid.png";
-import sunnysideAgency from "./../image/projects/web/sunnysideAgency.png";
-import githubFinder from "./../image/projects/web/githubFinder.png";
-import staticJobListings from "./../image/projects/web/staticJobListings.png";
+import gameStore from "./../image/projects/web/game-store.png";
 import RickAndMortyAPI from "./../image/projects/web/RickAndMortyAPI.png";
+import githubFinder from "./../image/projects/web/githubFinder.png";
 import pokedexAPI from "./../image/projects/web/pokedexAPI.png";
 import starwarsAPI from "./../image/projects/web/starwarsAPI.png";
 
 const projectDb = {
   web: [
     {
-        website: "https://sk1-huddle-landing-page.netlify.app/",
-        image: hunddleLanding,
-        title: 'Huddle landing page with curved sections',
+        website: "https://game-store-ks.vercel.app/",
+        image: gameStore,
+        title: 'Game Store',
         year: 2022,
-        tools: ["HTML", "SASS", "GULP"],
-        github: 'https://github.com/sskaren1/huddle-landing-page-with-curved-sections',
-        description: "This project is Frontend-Mentor challenge, it was made using HTML and CSS.",
-    },
-    {
-        website: "https://sskaren1.github.io/Testimonials-grid-section/",
-        image: testimonialsGrid,
-        title: 'Testimonials grid section',
-        year: 2022,
-        tools: ["HTML", "SASS", "GULP"],
-        github: 'https://github.com/sskaren1/Testimonials-grid-section',
-        description: "This project is Frontend-Mentor challenge, it was made using HTML, CSS and GULP.",
-    },
-    {
-        website: "https://sskaren1.github.io/Sunnyside-agency-landing-page/",
-        image: sunnysideAgency,
-        title: 'Sunnyside agency landing page',
-        year: 2022,
-        tools: ["HTML", "SASS", "GULP"],
-        github: 'https://github.com/sskaren1/Sunnyside-agency-landing-page',
-        description: "This project is Frontend-Mentor challenge, it was made using HTML, CSS and GULP.",
-    },
-    {
-        website: "https://sskaren1.github.io/GitHub_finder/",
-        image: githubFinder,
-        title: 'GitHub finder',
-        year: 2022,
-        tools: ["HTML", "CSS", "Bootstrap", "JS"],
-        github: 'https://github.com/sskaren1/GitHub_finder',
-        description: "This project works with GitHub API, it was made using HTML, CSS, Bootstrap and JS.",
-    },
-    {
-        website: "https://sskaren1.github.io/static-job-listings/",
-        image: staticJobListings,
-        title: 'Static job listings',
-        year: 2022,
-        tools: ["HTML", "CSS", "JS"],
-        github: 'https://github.com/sskaren1/static-job-listings',
-        description: "This project is Frontend-Mentor challenge, it was made using HTML, CSS and JS.",
+        tools: ["React", "SASS", "Tailwind CSS", "SweetAlert"],
+        github: 'https://github.com/sskaren1/game-store',
+        description: "Basic e-commerce with shopping cart where you can add, delete, increase and decrease the number of items in the shopping cart with the updated price",
     },
     {
         website: "https://sskaren1.github.io/Rick-and-Morty-API/",
@@ -62,6 +23,15 @@ const projectDb = {
         tools: ["HTML", "CSS", "JS"],
         github: 'https://github.com/sskaren1/Rick-and-Morty-API',
         description: "This project works with Rick and Morty API, it was made using HTML, CSS and JS.",
+    },
+    {
+        website: "https://sskaren1.github.io/GitHub_finder/",
+        image: githubFinder,
+        title: 'GitHub finder',
+        year: 2022,
+        tools: ["HTML", "CSS", "Bootstrap", "JS"],
+        github: 'https://github.com/sskaren1/GitHub_finder',
+        description: "This project works with GitHub API, it was made using HTML, CSS, Bootstrap and JS.",
     },
     {
         website: "https://sskaren1.github.io/pokedex/",
