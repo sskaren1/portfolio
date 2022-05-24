@@ -29,9 +29,9 @@
   border: none;
   border-radius: 1.5rem;
   width: 10rem;
-  height: 15.5rem;
+  height: 16rem;
   margin: 0 $margin_elemt calc($margin_elemt*2);
-  padding: $padding_elemt;
+  padding: 1rem;
 
   @include tablet{
     width: 13rem;

@@ -15,6 +15,7 @@ import "../styles/layouts/skills.scss";
 import skillDb from "./../assets/data/skillDb.js";
 // Importando imagen
 import tailwind from "./../assets/image/tailwind.svg";
+import antDesign from "./../assets/image/ant-design.svg";
 import django from "./../assets/image/django.svg";
 
 const Skills = () => {
@@ -32,7 +33,11 @@ const Skills = () => {
             ))}
             <div className="skill__icons">
               <img src={tailwind} />
-              <h3>Tailwind</h3>
+              <h3>Tailwind CSS</h3>
+            </div>
+            <div className="skill__icons">
+              <img src={antDesign} />
+              <h3>Ant design</h3>
             </div>
             {/* <div className="skill__icons">
               <img src={django} />
